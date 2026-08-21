@@ -1,11 +1,11 @@
 let score = "33abc"
 
-console.log(typeof score)
+// console.log(typeof score)
 
 let valueInNumber = Number(score);
 
-console.log(typeof valueInNumber);
-console.log(valueInNumber);
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber);
 
 // "33" => 33
 // "33abc" => NaN (Not a Number)
@@ -18,8 +18,18 @@ console.log(valueInNumber);
 
 let someNumber = 55
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+//console.log(stringNumber);
+//console.log(typeof stringNumber);
 
+// **********Operations*********
+
+let value = 3
+let negValue = -value
+//console.log(negValue); // answer will be -3
+
+// IMPORTANT THING TO NOTICE 
+
+console.log("1" + 2 + 2); // this will give the output as 122 
+console.log(1 + 2 + "2"); // this will give the output as 32
 
 
